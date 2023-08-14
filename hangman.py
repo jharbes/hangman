@@ -34,12 +34,12 @@ def loading():
         time.sleep(0.2)
     
 
-
+# word=get_valid_word(words)
 word='CACHORRO'
 
-word_letter_list=[word for word in word]
+word_letter_list=[character for character in word]
 
-guessed_letter_list=['_' for word in word]
+guessed_letter_list=['_' for character in word]
 
 print()
 
